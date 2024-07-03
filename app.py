@@ -142,4 +142,4 @@ def add_multi_blogposts():
     return jsonify(blogposts_schema.dump(new_blogposts))
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
